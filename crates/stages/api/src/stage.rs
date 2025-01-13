@@ -183,7 +183,7 @@ pub struct UnwindOutput {
 /// Each stage takes care of a well-defined task, such as downloading headers or executing
 /// transactions, and persist their results to a database.
 ///
-/// Stages must have a unique [ID][StageId] and implement a way to "roll forwards"
+/// Stages must have an unique [ID][StageId] and implement a way to "roll forwards"
 /// ([Stage::execute]) and a way to "roll back" ([Stage::unwind]).
 ///
 /// Stages are executed as part of a pipeline where they are executed serially.

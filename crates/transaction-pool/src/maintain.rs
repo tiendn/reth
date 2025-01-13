@@ -483,7 +483,7 @@ impl MaintainedPoolState {
     }
 }
 
-/// A unique [`ChangedAccount`] identified by its address that can be used for deduplication
+/// An unique [`ChangedAccount`] identified by its address that can be used for deduplication
 #[derive(Eq)]
 struct ChangedAccountEntry(ChangedAccount);
 

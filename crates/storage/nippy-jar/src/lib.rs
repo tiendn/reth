@@ -140,7 +140,7 @@ impl NippyJar<()> {
 }
 
 impl<H: NippyJarHeader> NippyJar<H> {
-    /// Creates a new [`NippyJar`] with a user-defined header data.
+    /// Creates a new [`NippyJar`] with an user-defined header data.
     pub fn new(columns: usize, path: &Path, user_header: H) -> Self {
         Self {
             version: NIPPY_JAR_VERSION,

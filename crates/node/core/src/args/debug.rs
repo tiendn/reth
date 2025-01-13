@@ -152,7 +152,7 @@ impl InvalidBlockSelection {
     /// );
     /// ```
     ///
-    /// Create a unique selection from the [`InvalidBlockHookType`] string identifiers
+    /// Create an unique selection from the [`InvalidBlockHookType`] string identifiers
     ///
     /// ```
     /// use reth_node_core::args::{InvalidBlockHookType, InvalidBlockSelection};
